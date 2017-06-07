@@ -64,7 +64,9 @@ var child = Locator.Current.GetService<ChildObject>();
 
 ## Installation ##
 
-The library is available via NuGet [here](https://www.nuget.org/packages/ChilliSource.Mobile.Ioc).
+The libraries are available via NuGet:
+* [ChilliSource.Mobile.DryIoc](https://www.nuget.org/packages/ChilliSource.Mobile.DryIoc)
+* [ChilliSource.Mobile.ReactiveUI.DryIoc](https://www.nuget.org/packages/ChilliSource.ReactiveUI.DryIoc)
 
 ## Releases ##
 
@@ -81,5 +83,3 @@ ChilliSource.Mobile is licensed under the [MIT license](LICENSE).
 ## Feedback and Contact ##
 
 For questions or feedback, please contact [chillisource@bluechilli.com](mailto:chillisource@bluechilli.com).
-
-

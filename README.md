@@ -65,8 +65,8 @@ var child = Locator.Current.GetService<ChildObject>();
 ## Installation ##
 
 The libraries are available via NuGet:
-* [ChilliSource.Mobile.DryIoc](https://www.nuget.org/packages/ChilliSource.Mobile.DryIoc)
-* [ChilliSource.Mobile.UI.ReactiveUI.DryIoc](https://www.nuget.org/packages/ChilliSource.UI.ReactiveUI.DryIoc)
+* [ChilliSource.Mobile.DryIoc](https://www.nuget.org/packages/ChilliSource.Mobile.Ioc.DryIoc/)
+* [ChilliSource.Mobile.UI.ReactiveUI.DryIoc](https://www.nuget.org/packages/ChilliSource.Mobile.UI.ReactiveUI.DryIoc/)
 
 ## Releases ##
 

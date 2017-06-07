@@ -97,7 +97,7 @@ if(!string.IsNullOrEmpty(EnvironmentVariable("ShouldAddLicenseHeader"))) {
 
 var githubOwner = config.Value<string>("githubOwner");
 var githubRepository = config.Value<string>("githubRepository");
-var githubUrl = string.Format("https://bitbucket.org/{0}/{1}", githubOwner, githubRepository);
+var githubUrl = string.Format("https://github.com/{0}/{1}", githubOwner, githubRepository);
 var licenceUrl = string.Format("{0}/blob/master/LICENSE", githubUrl);
 
 // Version

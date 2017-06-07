@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChilliSource.Mobile.Ioc.DryIoc", "ChilliSource.Mobile.Ioc.DryIoc\ChilliSource.Mobile.Ioc.DryIoc.csproj", "{30BA8B5A-5628-46CB-BBBA-63B5EDD13BC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChilliSource.Mobile.Ioc.DryIoc.Tests", "ChilliSource.Mobile.Ioc.DryIoc.Tests\ChilliSource.Mobile.Ioc.DryIoc.Tests.csproj", "{3013388F-5B0A-4351-9506-B41E33D127C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChilliSource.Mobile.UI.ReactiveUI.DryIoc", "ChilliSource.Mobile.UI.ReactiveUI.DryIoc\ChilliSource.Mobile.UI.ReactiveUI.DryIoc.csproj", "{591D8F17-A653-4E66-A82A-16E60D23F4D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChilliSource.Mobile.UI.ReactiveUI.DryIoc.Tests", "ChilliSource.Mobile.UI.ReactiveUI.DryIoc.Tests\ChilliSource.Mobile.UI.ReactiveUI.DryIoc.Tests.csproj", "{E622591C-BA39-4ABE-860F-387DF676B0E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30BA8B5A-5628-46CB-BBBA-63B5EDD13BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BA8B5A-5628-46CB-BBBA-63B5EDD13BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BA8B5A-5628-46CB-BBBA-63B5EDD13BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BA8B5A-5628-46CB-BBBA-63B5EDD13BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3013388F-5B0A-4351-9506-B41E33D127C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3013388F-5B0A-4351-9506-B41E33D127C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3013388F-5B0A-4351-9506-B41E33D127C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3013388F-5B0A-4351-9506-B41E33D127C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591D8F17-A653-4E66-A82A-16E60D23F4D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591D8F17-A653-4E66-A82A-16E60D23F4D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591D8F17-A653-4E66-A82A-16E60D23F4D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591D8F17-A653-4E66-A82A-16E60D23F4D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E622591C-BA39-4ABE-860F-387DF676B0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E622591C-BA39-4ABE-860F-387DF676B0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E622591C-BA39-4ABE-860F-387DF676B0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E622591C-BA39-4ABE-860F-387DF676B0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

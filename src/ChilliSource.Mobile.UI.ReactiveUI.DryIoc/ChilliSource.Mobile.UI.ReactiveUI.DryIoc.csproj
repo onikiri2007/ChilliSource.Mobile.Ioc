@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.4;net45</TargetFrameworks>
+    <PackageTargetFallback>$(PackageTargetFallback);portable-win+net45+wp8+win81+wpa8</PackageTargetFallback>
+    <Authors>Blue Chilli Technology Pty Ltd</Authors>
+    <Company>Blue Chilli Technology Pty Ltd</Company>
+    <Description>DryIoc container ReactiveUI Extensions</Description>
+    <Product>ReactiveUI DryIoc Extensions</Product>
+    <RepositoryUrl>https://github.com/BlueChilli/ChilliSource.Mobile.Ioc</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard1.4|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard1.4|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.4\ChilliSource.Mobile.UI.ReactiveUI.DryIoc.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="reactiveui" Version="7.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ChilliSource.Mobile.Ioc.DryIoc\ChilliSource.Mobile.Ioc.DryIoc.csproj" />
+  </ItemGroup> 
+</Project>

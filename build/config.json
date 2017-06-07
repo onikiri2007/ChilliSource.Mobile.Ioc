@@ -1,0 +1,22 @@
+{
+	"productName" : "ChilliSource Mobile Ioc",
+	"projectName" : "ChilliSource.Mobile.Ioc",
+	"githubOwner": "bluechilli",
+	"githubRepository": "ChilliSource.Mobile.Ioc",
+	"packageWhiteList": ["ChilliSource.Mobile.Ioc.DryIoc", "ChilliSource.Mobile.UI.ReactiveUI.DryIoc"],
+	"solutionFile" : "../src/ChilliSource.Mobile.Ioc.sln",
+	"tags": [ "ChilliSource", "ChilliSource Mobile Ioc"],
+	"authors" : ["Blue Chilli Technology Pty Ltd"],
+	"copyright" : "Copyright Blue Chilli Technology Pty Ltd 2017",
+	"iconUrl": "https://avatars0.githubusercontent.com/u/5924219?v=3&s=200",
+	"testProjectDll": "../src/**/bin/Release/*.Tests.dll",
+	"runUnitTests" : true,
+	"runSimulatorTests" : false,
+	"iosTestAppPath": "",
+	"androidTestAppPath":"",
+	"nuspecRootPath" : "../src/",
+	"testAppBundleId": "",
+	"simulatorRuntimes": ["iOS 10.3", "iOS 10.2"],
+	"simulatorDevice" : "iPhone 6s",
+	"artifactDirectory" : "../build/artifacts/"
+}

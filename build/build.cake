@@ -345,7 +345,6 @@ Action<string,string> build = (solution, buildConfiguration) =>
 				.WithTarget("restore;ChilliSource_Mobile_Ioc_DryIoc:pack;ChilliSource_Mobile_UI_ReactiveUI_DryIoc:pack")
 		        .WithProperty("PackageOutputPath",  MakeAbsolute(Directory(artifactDirectory)).ToString())
 			    .WithProperty("Version", nugetVersion.ToString())
-			    .WithProperty("Title",  "\"" + productName + "\"")
 			    .WithProperty("Authors",  "\"" + string.Join(" ", authors) + "\"")
 			    .WithProperty("Copyright",  "\"" + copyright + "\"")
 			    .WithProperty("PackageProjectUrl",  "\"" + githubUrl + "\"")
